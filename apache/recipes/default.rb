@@ -9,3 +9,8 @@
 package 'httpd' do
 	:install
 end
+
+cookbook_file "index.html" do
+	path "/var/www/html"
+	action :create
+end
