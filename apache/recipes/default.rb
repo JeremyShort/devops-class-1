@@ -11,6 +11,6 @@ package 'httpd' do
 end
 
 cookbook_file "index.html" do
-	path "/var/www/html"
+	path "/var/www/html/index.html"
 	action :create
 end
